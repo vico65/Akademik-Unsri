@@ -1,462 +1,464 @@
 <div class="p-5 xl:w-11/12 w-full relative top-14">
-    <h1 class="text-inter font-bold text-base sm:text-lg mb-2">DATA PRIBADI MAHASISWA</h1>
+    <h1 class="text-inter font-bold text-base sm:text-lg mb-2 dark:text-slate-300 dark:font-semibold">DATA PRIBADI MAHASISWA</h1>
 
-    <form class="grid lg:grid-cols-2 lg:gap-3 ">
+    <form>
+        <div class="grid lg:grid-cols-2 lg:gap-3 ">
+            <div>
+                <div class="bg-white dark:bg-slate-900 w-full p-3 shadow-md overflow-auto h-fit lg:h-3/4">
 
-        <div>
-            <div class="bg-white w-full p-3 shadow-md overflow-auto h-fit lg:h-1/2">
+                    <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900 dark:text-sky-700">Data mahasiswa</h3>
 
-                <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900">Data mahasiswa</h3>
+                    <table class="border-collapse text-left sm:text-sm text-xs text-slate-700  dark:text-slate-400 font-nunito">
+                        <tr>
+                            <td class="px-1 py-1 font-bold">NIM</td>
+                            <td>:</td>
+                            <td class="pl-2">09031182025088</td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-1 font-bold">Angkatan</td>
+                            <td>:</td>
+                            <td class="pl-2">2020</td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-1 font-bold">Dosen P. A</td>
+                            <td>:</td>
+                            <td class="pl-2">Bambang Sucipto</td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Nama</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none "
+                                    type="text" value="user">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Alamat</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <textarea
+                                    class="ml-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none resize lg:resize-y
+                                    cols="30" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Nomor Telepon</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="082233516755">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Tempat Lahir</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="Palembang">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jenis Kelamin</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="laki_laki_choice" checked>
+                                <label for="laki_laki_choice">Laki-laki</label>
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="perempuan_choice">
+                                <label for="perempuan_choice">Perempuan</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Agama</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <select
+                                    class="dark:bg-slate-800 dark:border-none border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500 ml-1">
+                                    <option>Islam</option>
+                                    <option>Katolik</option>
+                                    <option>Protestan</option>
+                                    <option>Budha</option>
+                                    <option>Hindu</option>
+                                    <option>Lain-lain</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Kewarganegaraan</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="wni_choice" checked>
+                                <label for="wni_choice">Wni</label>
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="wna_choice">
+                                <label for="wna_choice">Wna</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Status Perkawinan</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="kawin_choice" checked>
+                                <la for="kawin_choice">Kawin</la class="pl-1" bel>
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="belum_kawin_choice">
+                                <label for="belum_kawin_choice">Belum kawin</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Golongan Darah</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="a_choice" checked>
+                                <label for="a_choice">A</label>
 
-                <table class="border-collapse text-left sm:text-sm text-xs text-slate-700 font-nunito">
-                    <tr>
-                        <td class="px-1 py-1 font-bold">NIM</td>
-                        <td>:</td>
-                        <td class="pl-2">09031182025088</td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-1 font-bold">Angkatan</td>
-                        <td>:</td>
-                        <td class="pl-2">2020</td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-1 font-bold">Dosen P. A</td>
-                        <td>:</td>
-                        <td class="pl-2">Bambang Sucipto</td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Nama</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="user">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Alamat</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <textarea
-                                class="ml-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm resize lg:resize-y"
-                                cols="30" rows="5"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Nomor Telepon</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="082233516755">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Tempat Lahir</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="Palembang">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jenis Kelamin</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input class="ml-1 accent-yellow-300" type="radio" name="laki_laki_choice" checked>
-                            <label for="laki_laki_choice">Laki-laki</label>
-                            <input class="ml-1 accent-yellow-300" type="radio" name="perempuan_choice">
-                            <label for="perempuan_choice">Perempuan</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Agama</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <select
-                                class="border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500 ml-1">
-                                <option>Islam</option>
-                                <option>Katolik</option>
-                                <option>Protestan</option>
-                                <option>Budha</option>
-                                <option>Hindu</option>
-                                <option>Lain-lain</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Kewarganegaraan</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input class="ml-1 accent-yellow-300" type="radio" name="wni_choice" checked>
-                            <label for="wni_choice">Wni</label>
-                            <input class="ml-1 accent-yellow-300" type="radio" name="wna_choice">
-                            <label for="wna_choice">Wna</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Status Perkawinan</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input class="ml-1 accent-yellow-300" type="radio" name="kawin_choice" checked>
-                            <la for="kawin_choice">Kawin</la class="pl-1" bel>
-                            <input class="ml-1 accent-yellow-300" type="radio" name="belum_kawin_choice">
-                            <label for="belum_kawin_choice">Belum kawin</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Golongan Darah</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input class="ml-1 accent-yellow-300" type="radio" name="a_choice" checked>
-                            <label for="a_choice">A</label>
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="B_choice">
+                                <label for="B_choice">B</label>
 
-                            <input class="ml-1 accent-yellow-300" type="radio" name="B_choice">
-                            <label for="B_choice">B</label>
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="AB_choice">
+                                <label for="AB_choice">AB</label>
 
-                            <input class="ml-1 accent-yellow-300" type="radio" name="AB_choice">
-                            <label for="AB_choice">AB</label>
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="o_choice">
+                                <label for="o_choice">O</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jumlah Adik (Laki-Laki)</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jumlah Adik (Perempuan)</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jumlah Kakak (Laki-Laki)</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jumlah Kakak (Perempuan)</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="1">
+                            </td>
+                        </tr>
+                    </table>
 
-                            <input class="ml-1 accent-yellow-300" type="radio" name="o_choice">
-                            <label for="o_choice">O</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jumlah Adik (Laki-Laki)</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="1">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jumlah Adik (Perempuan)</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="1">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jumlah Kakak (Laki-Laki)</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="1">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jumlah Kakak (Perempuan)</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="1">
-                        </td>
-                    </tr>
-                </table>
+                </div>
+
+                <div class="bg-white dark:bg-slate-900 w-ful p-3 shadow-md overflow-auto mt-3 h-fit lg:h-1/4">
+
+                    <h3 class="text-in dark:text-sky-700">Pekerjaan mahasiswa</h3>
+
+                    <table class="border-collapse text-left sm:text-sm text-xs text-slate-700 dark:text-slate-400 font-nunito">
+
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Pekerjaan</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="bekerja_choice">
+                                <label for="bekerja_choice">Bekerja</label>
+                                <input class="ml-1 accent-yellow-300 dark:accent-sky-900" type="radio" name="tidak_bekerja_choice" checked>
+                                <label for="tidak_bekerja_choice" >Tidak bekerja</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Tempat Kerja</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="-">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Alamat Pekerjaan</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <textarea
+                                    class="ml-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none resize lg:resize-y"
+                                    cols="30" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Telp. Tempat Kerja</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="-">
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </div>
 
             </div>
 
-            <div class="bg-white w-ful p-3 shadow-md overflow-auto mt-3 h-fit lg:h-1/2">
+            <div>
+                <div class="bg-white dark:bg-slate-900 w-full p-3 shadow-md overflow-auto mt-3 lg:mt-0 h-fit lg:h-3/4">
 
-                <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900">Pekerjaan mahasiswa</h3>
+                    <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900 dark:text-sky-700">Data orang tua</h3>
 
-                <table class="border-collapse text-left sm:text-sm text-xs text-slate-700 font-nunito">
+                    <table class="border-collapse text-left sm:text-sm text-xs text-slate-700 dark:text-slate-400 font-nunito">
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Nama Ayah</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="Rahmad Sejahtera">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Pendidikan Ayah</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <select
+                                    class="dark:bg-slate-800 dark:border-none border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500 ml-1">
+                                    <option>SD</option>
+                                    <option>SMP</option>
+                                    <option>SMA</option>
+                                    <option>D3</option>
+                                    <option>S1</option>
+                                    <option>S2</option>
+                                    <option>S3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Umur Ayah</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="47">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Agama Ayah</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <select
+                                    class="dark:bg-slate-800 dark:border-none border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500 ml-1">
+                                    <option>Islam</option>
+                                    <option>Katolik</option>
+                                    <option>Protestan</option>
+                                    <option>Budha</option>
+                                    <option>Hindu</option>
+                                    <option>Lain-lain</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Pekerjaan Ayah</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="Pegawai Swasta">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jumlah Penghasilan/Bln</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="Rp.3.000.000,00">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Nama Ibu</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="Siti Maryam">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Pendidikan Ibu</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <select
+                                    class="dark:bg-slate-800 dark:border-none border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500">
+                                    <option>SD</option>
+                                    <option>SMP</option>
+                                    <option>SMA</option>
+                                    <option>D3</option>
+                                    <option>S1</option>
+                                    <option>S2</option>
+                                    <option>S3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Umur Ibu</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="33">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Agama Ibu</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <select
+                                    class="dark:bg-slate-800 dark:border-none border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500 ml-1">
+                                    <option>Islam</option>
+                                    <option>Katolik</option>
+                                    <option>Protestan</option>
+                                    <option>Budha</option>
+                                    <option>Hindu</option>
+                                    <option>Lain-lain</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Pekerjaan Ibu</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="Ibu Rumah Tangga">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jumlah Penghasilan/Bln</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="-">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Alamat Orang Tua</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <textarea
+                                    class="ml-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    cols="30" rows="5"></textarea>
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Pekerjaan</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input class="ml-1 accent-yellow-300" type="radio" name="bekerja_choice">
-                            <label for="bekerja_choice">Bekerja</label>
-                            <input class="ml-1 accent-yellow-300" type="radio" name="tidak_bekerja_choice">
-                            <label for="tidak_bekerja_choice" checked>Tidak bekerja</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Tempat Kerja</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="-">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Alamat Pekerjaan</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <textarea
-                                class="ml-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm resize lg:resize-y"
-                                cols="30" rows="5"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Telp. Tempat Kerja</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="-">
-                        </td>
-                    </tr>
+                    </table>
 
-                </table>
+
+                </div>
+
+
+                <div class="bg-white dark:bg-slate-900 w-full p-3 shadow-md overflow-auto mt-3 h-fit lg:h-1/4">
+
+                    <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900 dark:text-sky-700">Data lainnya</h3>
+
+                    <table class="border-collapse text-left sm:text-sm text-xs text-slate-700 dark:text-slate-400 font-nunito">
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Asal SLTA/Jurusan</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="SMAN 11 Palembang">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Nomor STTB</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="1276893298">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Tanggal STTB</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="date" value="2020-11-08">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jumlah Nilai STTB</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="598">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Jumlah NEM</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="number" value="877">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Hobi</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="text" value="Bermain Game Online">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Tanggal Isi Formulir</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <input
+                                    class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    type="date" value="2020-09-10">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-1 py-2 font-bold">Keterangan Lain</td>
+                            <td>:</td>
+                            <td class="pl-1">
+                                <textarea
+                                    class="ml-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm dark:bg-slate-800 dark:border-none"
+                                    cols="30" rows="5"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
 
             </div>
 
+            
         </div>
 
-        <div>
-            <div class="bg-white w-full p-3 shadow-md overflow-auto mt-3 h-fit lg:h-1/2">
-
-                <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900">Data orang tua</h3>
-
-                <table class="border-collapse text-left sm:text-sm text-xs text-slate-700 font-nunito">
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Nama Ayah</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="Rahmad Sejahtera">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Pendidikan Ayah</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <select
-                                class="border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500 ml-1">
-                                <option>SD</option>
-                                <option>SMP</option>
-                                <option>SMA</option>
-                                <option>D3</option>
-                                <option>S1</option>
-                                <option>S2</option>
-                                <option>S3</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Umur Ayah</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="47">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Agama Ayah</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <select
-                                class="border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500 ml-1">
-                                <option>Islam</option>
-                                <option>Katolik</option>
-                                <option>Protestan</option>
-                                <option>Budha</option>
-                                <option>Hindu</option>
-                                <option>Lain-lain</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Pekerjaan Ayah</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="Pegawai Swasta">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jumlah Penghasilan/Bln</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="Rp.3.000.000,00">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Nama Ibu</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="Siti Maryam">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Pendidikan Ibu</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <select
-                                class="border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500">
-                                <option>SD</option>
-                                <option>SMP</option>
-                                <option>SMA</option>
-                                <option>D3</option>
-                                <option>S1</option>
-                                <option>S2</option>
-                                <option>S3</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Umur Ibu</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="33">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Agama Ibu</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <select
-                                class="border py-2 focus:outline-none focus:ring-1 rounded-md focus:ring-yellow-500 focus:border-yellow-500 ml-1">
-                                <option>Islam</option>
-                                <option>Katolik</option>
-                                <option>Protestan</option>
-                                <option>Budha</option>
-                                <option>Hindu</option>
-                                <option>Lain-lain</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Pekerjaan Ibu</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="Ibu Rumah Tangga">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jumlah Penghasilan/Bln</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="-">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Alamat Orang Tua</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <textarea
-                                class="ml-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                cols="30" rows="5"></textarea>
-                        </td>
-                    </tr>
-
-                </table>
-
-
-            </div>
-
-
-            <div class="bg-white w-full p-3 shadow-md overflow-auto mt-3 h-fit lg:h-1/2">
-
-                <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900">Data lainnya</h3>
-
-                <table class="border-collapse text-left sm:text-sm text-xs text-slate-700 font-nunito">
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Asal SLTA/Jurusan</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="SMAN 11 Palembang">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Nomor STTB</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="1276893298">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Tanggal STTB</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="date" value="2020-11-08">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jumlah Nilai STTB</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="598">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Jumlah NEM</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="number" value="877">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Hobi</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="text" value="Bermain Game Online">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Tanggal Isi Formulir</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <input
-                                class="ml-1 px-2 py-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                type="date" value="2020-09-10">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-1 py-2 font-bold">Keterangan Lain</td>
-                        <td>:</td>
-                        <td class="pl-1">
-                            <textarea
-                                class="ml-1 border rounded-md border-slate-200  placeholder:text-slate-300 focus:outline-none focus:ring-1 focus:ring-yellow-500 focus:border-yellow-500 shadow-sm"
-                                cols="30" rows="5"></textarea>
-                        </td>
-                    </tr>
-                </table>
-
-            </div>
-
-        </div>
-
-        <section class="flex mx-auto w-fit gap-2">
+        <section class="flex mt-1 lg:mt-3 mb-1 lg:mb-5 mx-auto w-fit gap-2">
             <button type="button"
-                class="border py-1 px-2 sm:py-2 sm:px-6 text-sm font-semibold text-white bg-green-600 shadow-lg border-slate-300 rounded-lg mt-3 hover:bg-green-700">Simpan</button>
+                class="border py-1 px-2 sm:py-2 sm:px-6 text-sm font-semibold text-white bg-green-600 shadow-lg border-slate-300 rounded-lg mt-3 hover:bg-green-700 dark:bg-sky-900 dark:hover:bg-sky-500 dark:border-none dark:font-normal">Simpan</button>
             <button type="button"
-                class="border py-1 px-2  sm:py-2 sm:px-6 font-semibold text-white bg-red-600 shadow-lg border-slate-300 rounded-lg mt-3 hover:bg-red-700 text-sm">Batal</button>
+                class="border py-1 px-2  sm:py-2 sm:px-6 font-semibold text-white bg-red-600 shadow-lg border-slate-300 rounded-lg mt-3 hover:bg-red-700 text-sm dark:bg-sky-900 dark:hover:bg-sky-500 dark:border-none dark:font-normal">Batal</button>
         </section>
-
     </form>
 </div>

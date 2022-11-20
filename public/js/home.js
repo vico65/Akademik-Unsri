@@ -54,7 +54,10 @@ let pagesWhenButtonIsClick = [
 let pointerWhenButtonIsClick = [
     document.getElementById('pointer_bio'),
     document.getElementById('pointer_akademik'),
-    document.getElementById('pointer_password')
+    document.getElementById('pointer_password'),
+    document.getElementById('pointer_krs'),
+    document.getElementById('pointer_khs'),
+    document.getElementById('pointer_tn')
 ]
 
 let closeSidebar = () => {
@@ -67,7 +70,7 @@ let pointerStyle = ['text-yellow-600', 'dark:text-sky-500' , 'font-medium', 'cur
 
 buttonListSidebar.addEventListener('click', closeSidebar)
 
-showHalaman(halaman_data_pribadi)
+showHalaman(halaman_krs)
 
 // if (document.cookie) {
 //     showHalaman(document.cookie)
@@ -190,7 +193,7 @@ function showHalaman(halaman) {
                 if(button) 
                     button.addEventListener('click',() => {
                         //ganti tampilan pointer
-                        if (index < 3) changePointer(pointerWhenButtonIsClick[index], activePointer)
+                        if (index < 6) changePointer(pointerWhenButtonIsClick[index], activePointer)
 
                         //perbarui tampilan
                         clearHalaman()
