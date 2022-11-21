@@ -1,56 +1,152 @@
-<div class="p-5 xl:w-11/12">
-
-    <div class="flex sm:text-sm text-xs font-light  text-slate-500 mb-2">
-        <a class="mr-1 cursor-pointer bc_akademik hover:font-normal hover:text-slate-800">Data Akademik</a>
-        <p> > </p>
-        <p class="text-yellow-500 ml-1">Transkrip Nilai</p>
+<div class="p-5 xl:w-11/12 relative top-14">
+    <div class="flex sm:text-sm text-xs font-light text-slate-500 mb-2">
+        <a class="mr-1 cursor-pointer bc_akademik hover:text-slate-800 hover:font-normal dark:text-slate-400">Data
+            Akademik</a>
+        <p>></p>
+        <p class="text-yellow-500 ml-1 dark:text-sky-600">Transkrip Nilai</p>
     </div>
 
-    <h1 class="text-inter font-bold text-2xl mb-4">Transkrip Nilai</h1>
+    <h1 class="text-inter font-bold text-2xl mb-4 dark:text-slate-300">
+        Transkrip Nilai
+    </h1>
 
-    <section class="shadow-xl p-3 w-fit bg-yellow-50 rounded-md text-left sm:text-sm text-xs font-normal">
-        <table class="">
-            <tr>
-                <td class="xl:hidden block">Nama Mhs</td>
-                <td class="hidden xl:block">Nama Mahasiswa</td>
-                <td>:</td>
-                <td class="font-bold">Abcdef</td>
-            </tr>
-            <tr>
-                <td class="sm:hidden block">TTL</td>
-                <td class="hidden sm:block">Tempat, Tanggal Lahir</td>
-                <td>:</td>
-                <td class="font-bold">12345</td>
-            </tr>
-            <tr>
-                <td class="xl:hidden block">Nim</td>
-                <td class="hidden xl:block">Nomor Induk Mahasiswa</td>
-                <td>:</td>
-                <td class="font-bold">12345</td>
-            </tr>
-            <tr>
-                <td>Program Studi</td>
-                <td>:</td>
-                <td class="font-bold">abcdefg</td>
-            </tr>   
-            <tr>
-                <td>Tahun Masuk</td>
-                <td>:</td>
-                <td class="font-bold">1234</td>
-            </tr>
-            <tr>
-                <td class="xl:hidden block">Tanggal Lulus</td>
-                <td class="hidden xl:block">Tanggal Kelulusan (Yudisium)</td>
-                <td>:</td>
-                <td class="font-bold">-</td>
-            </tr>
-        </table>
+    <section class="w-full">
+        <div class="bg-white dark:bg-slate-900 p-3 shadow-md lg:w-1/2 w-[95%] h-fit">
+            <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900 dark:text-sky-700">
+                Data mahasiswa
+            </h3>
 
+            <table
+                class="border-collapse text-left sm:text-sm text-xs text-slate-700 dark:text-slate-400 font-nunito w-full">
+                <tr class="bg-yellow-50 dark:bg-slate-800">
+                    <td class="px-2 py-2 font-bold">NIM</td>
+                    <td>:</td>
+                    <td class="pl-2">09031182025088</td>
+                </tr>
+                <tr>
+                    <td class="px-2 py-2 font-bold">Nama</td>
+                    <td>:</td>
+                    <td class="pl-2">User</td>
+                </tr>
+                <tr class="bg-yellow-50 dark:bg-slate-800">
+                    <td class="px-2 py-2 font-bold">Tempat, Tanggal Lahir</td>
+                    <td>:</td>
+                    <td class="pl-2">Palembang, 16 Januari 2001</td>
+                </tr>
+                <tr >
+                    <td class="px-2 py-2 font-bold">Program Studi</td>
+                    <td>:</td>
+                    <td class="pl-2">Sistem Informasi</td>
+                </tr>
+                <tr class="bg-yellow-50 dark:bg-slate-800">
+                    <td class="px-2 py-2 font-bold">Tahun Masuk</td>
+                    <td>:</td>
+                    <td class="pl-2">2020</td>
+                </tr>
+                <tr>
+                    <td class="px-2 py-2 font-bold">Tanggal Lulus</td>
+                    <td>:</td>
+                    <td class="pl-2">-</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="bg-white dark:bg-slate-900 p-3 shadow-md h-fit mt-3 w-[95%] overflow-x-auto lg:self-center">
+
+            <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900 dark:text-sky-700 self-center">
+            Mata Kuliah 
+            </h3>
+
+            <table
+                class="border-collapse text-center table-auto sm:text-sm text-xs text-slate-700 dark:text-slate-400 font-nunito w-full mb-2">
+                <thead class="border-b border-slate-700">
+                    <tr>
+                        <td class="px-2 py-2 font-bold">No.</td>
+                        <td class="font-bold">Kode</td>
+                        <td class="font-bold">Mata Kuliah</td>
+                        <td class="font-bold pl-2">JP</td>
+                        <td class="font-bold pl-2 ">HM</td>
+                        <td class="font-bold pl-2 ">AM</td>
+                        <td class="font-bold pl-2 ">K</td>
+                        <td class="font-bold pl-2 ">M</td>
+                        <td class="font-bold pl-2 ">Aksi</td>
+
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="bg-yellow-50 dark:bg-slate-800">
+                        <td class="px-2 py-2">1</td>
+                        <td>FSI123543</td>
+                        <td class="pl-2">Pemrograman Bergerak</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td class="pl-2">
+                            <i class="bi bi-clock-history 
+                            dark:text-sky-700  text-green-500 cursor-pointer hover:text-red-700 hover:text-lg text-base"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-2 py-2">2</td>
+                        <td>FSI433543</td>
+                        <td>Kecerdasan Artifisial</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td class="pl-2">
+                            <i class="bi bi-clock-history 
+                            dark:text-sky-700  text-green-500 cursor-pointer hover:text-red-700 hover:text-lg text-base"></i>
+                        </td>
+                    </tr>
+                    <tr class="bg-yellow-50 dark:bg-slate-800">
+                        <td class="px-2 py-2">3</td>
+                        <td>FSI323543</td>
+                        <td>Data Science</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td class="pl-2">
+                            <i class="bi bi-clock-history 
+                            dark:text-sky-700  text-green-500 cursor-pointer hover:text-red-700 hover:text-lg text-base"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div>
+    
+                <table
+                    class="border-collapse text-left sm:text-sm text-xs text-slate-700 dark:text-slate-400 font-nunito w-full">
+                    <tr >
+                        <td class="px-2 py-1 font-bold">Jumlah Mutu</td>
+                        <td>:</td>
+                        <td class="pl-2">320</td>
+                    </tr>
+                    <tr class="bg-yellow-50 dark:bg-slate-800">
+                        <td class="px-2 py-1 font-bold">Jumlah Sks Kumulatif </td>
+                        <td>:</td>
+                        <td class="pl-2">40</td>
+                    </tr>
+                    <tr >
+                        <td class="px-2 py-1 font-bold">IPK</td>
+                        <td>:</td>
+                        <td class="pl-2">3.6</td>
+                    </tr>
+                </table>
+
+            <div class="w-fit ml-auto">
+                <button type="button"
+                    class="border py-1 px-1 sm:py-2 sm:px-2 text-xs sm:text-sm font-semibold text-white bg-green-500 dark:bg-green-900 dark:border-none dark:hover:bg-sky-700 shadow-lg border-slate-300 rounded-lg mt-2 hover:bg-green-700">
+                    Cetak
+                </button>
+            </div>
+        </div>
     </section>
-
-    <div class="w-fit bg-red-200 p-2 text-sans mt-2 text-red-600 text-xs sm:text-sm shadow-md">
-        <p class="font-medium">
-            <i class="bi bi-exclamation-triangle-fill"> </i>Data Tidak Ditemukan
-        </p>
-    </div>
 </div>

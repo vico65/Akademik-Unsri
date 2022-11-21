@@ -70,12 +70,10 @@ let pointerStyle = ['text-yellow-600', 'dark:text-sky-500' , 'font-medium', 'cur
 
 buttonListSidebar.addEventListener('click', closeSidebar)
 
-showHalaman(halaman_krs)
-
-// if (document.cookie) {
-//     showHalaman(document.cookie)
-//     document.title = title[pages.indexOf(document.cookie)]
-// } else showHalaman(halaman_depan)
+if (document.cookie) {
+    showHalaman(document.cookie)
+    document.title = title[pages.indexOf(document.cookie)]
+} else showHalaman(halaman_depan)
 
 setActivePointer(document.cookie)
 

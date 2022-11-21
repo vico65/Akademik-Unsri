@@ -11,13 +11,14 @@
     </h1>
 
     <section class="grid lg:grid-cols-2 gap-2 w-full">
-        <div class="bg-white dark:bg-slate-900 p-3 shadow-md w-fit lg:w-full  h-fit">
+        <div class="bg-white dark:bg-slate-900 p-3 shadow-md w-fit lg:w-full h-fit">
             <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900 dark:text-sky-700">
                 Data mahasiswa
             </h3>
 
-            <table class="border-collapse text-left sm:text-sm text-xs text-slate-700 dark:text-slate-400 font-nunito lg:w-full">
-                <tr class="bg-yellow-50">
+            <table
+                class="border-collapse text-left sm:text-sm text-xs text-slate-700 dark:text-slate-400 font-nunito lg:w-full">
+                <tr class="bg-yellow-50 dark:bg-slate-800">
                     <td class="px-2 py-2 font-bold">NIM</td>
                     <td>:</td>
                     <td class="pl-2">09031182025088</td>
@@ -27,7 +28,7 @@
                     <td>:</td>
                     <td class="pl-2">User</td>
                 </tr>
-                <tr class="bg-yellow-50">
+                <tr class="bg-yellow-50 dark:bg-slate-800">
                     <td class="px-2 py-2 font-bold">Semester</td>
                     <td>:</td>
                     <td class="pl-2">5</td>
@@ -37,7 +38,7 @@
                     <td>:</td>
                     <td class="pl-2">2022-2023</td>
                 </tr>
-                <tr class="bg-yellow-50">
+                <tr class="bg-yellow-50 dark:bg-slate-800">
                     <td class="px-2 py-2 font-bold">Program Studi</td>
                     <td>:</td>
                     <td class="pl-2">Sistem Informasi</td>
@@ -47,7 +48,7 @@
                     <td>:</td>
                     <td class="pl-2">4.0</td>
                 </tr>
-                <tr class="bg-yellow-50">
+                <tr class="bg-yellow-50 dark:bg-slate-800">
                     <td class="px-2 py-2 font-bold">Sks Maksimum</td>
                     <td>:</td>
                     <td class="pl-2">24</td>
@@ -57,7 +58,7 @@
                     <td>:</td>
                     <td class="pl-2">Bambang Sucipto</td>
                 </tr>
-                <tr class="bg-yellow-50">
+                <tr class="bg-yellow-50 dark:bg-slate-800">
                     <td class="px-2 py-2 font-bold">NIP Dosen P.A</td>
                     <td>:</td>
                     <td class="pl-2">3183189414</td>
@@ -65,7 +66,8 @@
             </table>
         </div>
 
-        <div class="bg-white dark:bg-slate-900 w-fit p-3 shadow-md h-fit mt-3 lg:mt-0 lg:w-full overflow-auto lg:self-center">
+        <div
+            class="bg-white dark:bg-slate-900 w-fit p-3 shadow-md h-fit mt-3 lg:mt-0 lg:w-full overflow-auto lg:self-center">
             <h3 class="text-inter font-semibold text-sm sm:text-base mb-3 text-red-900 dark:text-sky-700">
                 Mata Kuliah
             </h3>
@@ -84,13 +86,16 @@
                 </thead>
 
                 <tbody>
-                    <tr class="bg-yellow-50">
+                    <tr class="bg-yellow-50 dark:bg-slate-800">
                         <td class="px-2 py-2">1</td>
                         <td>FSI123543</td>
                         <td class="pl-2">Pemrograman Bergerak</td>
                         <td>B</td>
                         <td class="pl-2">3</td>
-                        <td class="pl-2"><i class="bi bi-x text-red-500 cursor-pointer hover:text-red-700 hover:text-xl text-lg"></i></td>
+                        <td class="pl-2">
+                            <i class="bi bi-x 
+                            dark:text-sky-700 text-red-500 cursor-pointer hover:text-red-700 hover:text-xl text-lg"></i>
+                        </td>
                     </tr>
                     <tr>
                         <td class="px-2 py-2">2</td>
@@ -98,47 +103,53 @@
                         <td>Kecerdasan Artifisial</td>
                         <td>B</td>
                         <td class="pl-2">2</td>
-                        <td class="pl-2"><i class="bi bi-x text-red-500 cursor-pointer hover:text-red-700 hover:text-xl text-lg"></i></td>
+                        <td class="pl-2">
+                            <i class="bi bi-x 
+                            dark:text-sky-700  text-red-500 cursor-pointer hover:text-red-700 hover:text-xl text-lg"></i>
+                        </td>
                     </tr>
-                    <tr class="bg-yellow-50">
+                    <tr class="bg-yellow-50 dark:bg-slate-800">
                         <td class="px-2 py-2">3</td>
                         <td>FSI323543</td>
                         <td>Data Science</td>
                         <td>B</td>
                         <td class="pl-2">1</td>
-                        <td class="pl-2"><i class="bi bi-x text-red-500 cursor-pointer hover:text-red-700 hover:text-xl text-lg"></i></td>
+                        <td class="pl-2">
+                            <i class="bi bi-x 
+                            dark:text-sky-700 text-red-500 cursor-pointer hover:text-red-700 hover:text-xl text-lg"></i>
+                        </td>
                     </tr>
                 </tbody>
             </table>
 
-            <p class="font-normal text-xs sm:text-sm mt-2 mb-1 text-slate-500 dark:text-sky-700">Sks yang diambil = 6
+            <p class="font-normal text-xs sm:text-sm mt-2 mb-1 text-slate-500 dark:text-sky-700">
+                Sks yang diambil = 6
             </p>
 
             <div class="w-fit ml-auto">
                 <button type="button"
-                    class="border py-1 px-1 sm:py-2 sm:px-2 text-xs sm:text-sm font-semibold text-white bg-blue-500 shadow-lg border-slate-300 rounded-lg mt-2 hover:bg-blue-700 ">
+                    class="border py-1 px-1 sm:py-2 sm:px-2 text-xs sm:text-sm font-semibold text-white bg-blue-500 dark:bg-sky-900 dark:border-none dark:hover:bg-sky-700 shadow-lg border-slate-300 rounded-lg mt-2 hover:bg-blue-700">
                     Tambah
                 </button>
 
                 <button type="button"
-                    class="border py-1 px-1 sm:py-2 sm:px-2 text-xs sm:text-sm font-semibold text-white bg-green-500 shadow-lg border-slate-300 rounded-lg mt-2 hover:bg-green-700 ">
+                    class="border py-1 px-1 sm:py-2 sm:px-2 text-xs sm:text-sm font-semibold text-white bg-green-500 dark:bg-green-900 dark:border-none dark:hover:bg-sky-700 shadow-lg border-slate-300 rounded-lg mt-2 hover:bg-green-700">
                     Cetak
                 </button>
             </div>
-
-            
         </div>
     </section>
 
-    <div class="w-fit bg-yellow-100 p-2 text-sans mt-3 text-yellow-600 text-xs sm:text-sm shadow-md">
-        <h2 class="font-semibold text-sm">
+    <div
+        class="w-[95%] bg-yellow-100 p-2 text-sans mt-3 text-yellow-600 dark:bg-slate-900 text-xs sm:text-sm shadow-md rounded-md">
+        <h2 class="font-semibold dark:font-bold dark:text-sky-700 text-sm">
             <i class="bi bi-exclamation-triangle-fill"></i>
             TIDAK BERLAKU PERIODE KRS ONLINE.
         </h2>
 
-        <p class="mt-2">
-            Silahkan menghubungi admin/operator fakultas untuk melakukan perubahan
-            Kartu Rencana Studi Anda.
+        <p class="mt-2 whitespace-pre-line lg:whitespace-normal dark:text-slate-500">
+            Silahkan menghubungi admin/operator fakultas untuk melakukan perubahan KRS
+            Anda.
         </p>
     </div>
 </div>
