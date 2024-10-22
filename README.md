@@ -9,16 +9,16 @@ Proyek ini merupakan front-end website dari akademik Universitas Sriwijaya, dike
 - Website tidak perlu reload pada browser ketika salah satu navigasi ditekan
 
 ## Screenshot
-Berikut adalah tampilan dari aplikasi:
+Berikut adalah beberapa tampilan dari aplikasi:
 
 Halaman Depan dengan Light Mode
-![Tampilan halaman depan dengan light mode](/image/halaman_depan_light_mode.png)\
+![Tampilan halaman depan dengan light mode](/image/halaman_depan_light_mode.png)
 
 Halaman depan dengan Dark Mode
-![Tampilan halaman depan dengan dark mode](/image/halaman_depan_dark_mode.png)\
+![Tampilan halaman depan dengan dark mode](/image/halaman_depan_dark_mode.png)
 
 Halaman data pribadi mahasiswa
-![Tampilan halaman data_pribadi_mahasiswa](/image/halaman_data_pribadi_mhs.png)\
+![Tampilan halaman data_pribadi_mahasiswa](/image/halaman_data_pribadi_mhs.png)
 
 Halaman krs mahasiswa
 ![Tampilan halaman krs](/image/halaman_krs.png)
