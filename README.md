@@ -14,4 +14,4 @@ Berikut adalah tampilan dari aplikasi:
 ![Tampilan halaman depan dengan light mode](/image/halaman_depan_light_mode.png)\
 ![Tampilan halaman depan dengan dark mode](/image/halaman_depan_dark_mode.png)\
 ![Tampilan halaman data_pribadi_mahasiswa](/image/halaman_data_pribadi_mhs.png)\
-![Tampilan halaman krs](/image/halaman_krs.png)\
+![Tampilan halaman krs](/image/halaman_krs.png)
