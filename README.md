@@ -1,6 +1,6 @@
-# Projek Akademik Unsri buat Tugas Komas
+# Projek Front-End Akademik Unsri 
 
-![Project Logo](/image/halaman_krs.png)
+![Project Logo](/image/logo_unsri.png)
 
 Proyek ini merupakan front-end website dari akademik Universitas Sriwijaya, dikembangkan menggunakan HTML, CSS dengan framework TailwindCss, dan juga javascript, proyek ini merupakan hasil dari tugas mata kuliah komputer dan masyarakat (KoMas)
 
@@ -11,4 +11,7 @@ Proyek ini merupakan front-end website dari akademik Universitas Sriwijaya, dike
 ## Screenshot
 Berikut adalah tampilan dari aplikasi:
 
-![Tampilan Aplikasi](/image/halaman_krs.png)\
+![Tampilan halaman depan dengan light mode](/image/halaman_depan_light_mode.png)\
+![Tampilan halaman depan dengan dark mode](/image/halaman_depan_dark_mode.png)\
+![Tampilan halaman data_pribadi_mahasiswa](/image/halaman_data_pribadi_mhs.png)\
+![Tampilan halaman krs](/image/halaman_krs.png)\
